@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+     <header>
+    <meta charset="UTF-8">
+    <title>contact me</title>
+   <style>
+        nav {background-color:rgb(134, 186, 203);
+        padding:10px;
+      }
+    nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color:black;
+      }
+      
+    body{background-color: rgb(215, 229, 240);
+           font-family: Arial, Helvetica, sans-serif;
+           padding: 5px;
+    }
+    .form-2{ background-color: white;
+          padding: 10px;
+          border-radius:20px;
+          width: 95px;  
+    }
+   .form-1{ background-color: white;
+          padding:20px;
+          border-radius:  40px;
+          width: 300px;
+    }
+    input[type=text],input[type=email],input[type=textarea]{
+        width: 250px;
+        padding: 10px;
+        margin-top: 1px;
+        border-radius: 5px
+    }
+   
+  </style> 
+  </header>
+</head>
+
+<body>
+ <main>
+    <nav>
+        <a href="index.html"    ><b>home page</b> </a>|
+        <a href="about-me.html" > <b>about Me</b> </a>|
+        <a href="contact.html"  ><b>contact Me</b></a>|
+        <a href="gallery.html"  ><b>my gallery</b></a>|
+    </nav>
+<h1>contact me</h1>
+
+<form class="form-1">
+    <label for="username"> Name</label>
+<input type="text" name="name" id="username" placeholder="enter  your Name" required><br>
+    <label for="lastname"> Lastname</label>
+<input type="text" name="lastname" id="lastname" placeholder="enter your lastname" required><BR>
+    <label for="email" > email</label>
+<input type="email" name="email" id="email" placeholder="enter your email" required><br>
+  
+</form><br>
+
+<form>
+<label for="Message">Message</label><br>
+<input type="textarea" name="Message" rows="3" cols="5" id="Message"  required><br>
+</form>
+
+<h3>choose your skills</h3>
+<form class="form-2">
+    <input type="checkbox" id="skill-1" name="skill-1" value="AutoCAD"  required><label for="colab-1">AutoCAD</label>
+    <input type="checkbox"  id="skill-2" name="skill-2" value="revit" required><label for="colab-1">revit</label><br>
+    <input type="checkbox" id="skill-3" name="skill-3" value="skechUp"required><label for="colab-1">skechUp</label>
+</form><br>
+
+<h4>choose your gender</h4>
+
+    <input type="radio"name="gender"value="Male"  id="male"required ><label for="male" >Male</label><br>
+    <input type="radio"name="gender"value="feMale"id="feMale" required><label for="feMale">female</label><br
+
+    <form action="example.php" method="post">
+        <input type="submit" value="submit" >  
+    </form>
+  </main>
+ </body><hr>
+
+ <footer>
+    <p>Get more information</p><a href="mailto:Ronajami96@gmail.com"> request information </a>
+    <p>copyright reserved.</p>
+ </footer>
+</html>
